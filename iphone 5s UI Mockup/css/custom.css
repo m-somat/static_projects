@@ -1,0 +1,108 @@
+.phone{
+	width: 480px;
+	height: 900px;
+	background-color: white;
+	margin: 20px auto;
+	border: 1px solid #444;
+	border-radius: 30px
+}
+
+.phone .speakers .first{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #555;
+	border-radius: 100%;
+	margin: 25px auto
+}
+
+.phone .speakers .second{
+	height: 8px;
+	width: 100px;
+	border: 1px solid #555;
+	border-radius: 10px;
+	margin: -10px auto;
+}
+
+.phone .home-btn{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border: 5px solid #444;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.phone .screen{
+	width: 430px;
+	height: 730px;
+	border: 1px solid #555;
+	margin: 25px auto;
+	margin-bottom: 13px;
+}
+
+.phone .screen .bar{
+	width: 410px;
+	height: 30px;
+	background-color: #444;
+	font-size: 20px;
+	color: white;
+	font-family: arial;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: default;
+}
+
+.phone .screen ul{
+	list-style: none;
+	margin: 0 auto;
+	width: 380px;
+	margin-left: -5px;
+	display: block;
+}
+
+.phone .screen ul li{
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #555;
+	border-radius: 15px
+}
+
+.phone .screen ul li:hover{
+	background-color: #E3F8FF
+}
+
+.phone .screen a{
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.phone .screen ul li i{
+	font-size: 40px;
+	padding: 20px;
+}
+
+.phone .screen .text li{
+	height: 0;
+	width: 80px;
+	font-family: arial;
+	border: 0;
+	margin: 8px auto;
+	margin-right: 13px;
+	margin-bottom: 18px;
+	font-weight: bold;
+}
+
+.phone .screen ul:nth-child(10){
+	margin-top: 550px
+}
+
+
+
+

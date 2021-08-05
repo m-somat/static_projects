@@ -1,0 +1,74 @@
+body{
+	background-color: #333;
+	overflow: hidden;
+}
+
+.popup{
+	background-color: #EEE;
+	height: 250px;
+	width: 450px;
+	text-align: center;
+	color: #666;
+	padding: 15px;
+	font-family: arial;
+	font-size: 17px;
+	margin: 160px auto;
+	margin-bottom: 0;
+	transform-origin: 10px 10px;
+	animation-timing-function: linear;
+	animation: drop 1s;
+}
+
+@keyframes drop{
+	0%{ transform: translateY(-400px); }
+	40%{ transform: translateY(50px); }
+	100%{ transform: translateY(0); }
+}
+
+.popup .login input{
+	display: block;
+	width: 400px;
+	margin: 15px 15px 0 24px;
+	padding-left: 7px;
+	border-radius: 5px;
+	background-color: #CCC;
+	font-weight: bold;
+	border: 0;
+	color: #444;
+	height: 45px;
+	transition: .3s;
+}
+
+.popup .login input:first-of-type{margin-top: 30px;}
+
+.popup .login input:hover,
+.popup .login input:focus{background-color: #BBB}
+
+.popup .login button{
+	color: #444;
+	border: 0;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 15px;
+	margin-top: 30px;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #49D292;
+	transition: .3s;
+}
+
+.popup .login button:hover{
+	background-color: #555;
+	color: #49D292;
+}
+
+.popup .login a{
+	display: inline-block;
+	color: #666;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.popup .login a:hover{
+	text-decoration: none;
+}

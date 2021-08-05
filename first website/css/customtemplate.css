@@ -1,0 +1,85 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.emphasis{
+	color: white;
+}
+
+.jumbotron h2{
+	margin-top: 40px;
+}
+
+i.fa{
+	margin-top: 20px;
+}
+
+nav.navbar{
+	font-size: 17px;
+}
+
+ul.nav{
+	font-size: 15px;
+}
+
+.navbar-brand{
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+div.container{
+	font-family: 'Arvo',courier, serif;
+
+}
+.jumbotron {
+	padding-top: 0px;
+	padding-bottom: 200px;
+	text-align: center;
+ }
+
+.container1{
+	padding-top: 0px;
+	padding-bottom: 200px;
+	background-image: url('../images/hero_image.jpg');
+}
+
+ul.nav{
+	font-family: 'Arvo',courier, serif;
+}
+
+.jumbotron h1{
+	font-family: 'Arvo',courier, serif;
+	padding-top: 30px;
+	margin-top: 0px;
+}
+
+.jumbotron h2,h3{
+	color:#ff0067;
+	text-transform: uppercase;
+}
+
+.jumbotron h2{
+	font-weight: bold;
+}
+
+.jumbotron h3{
+	font-weight: 500;
+}
+
+.jumbotron p{
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 10px;
+}
+
+.btn-lg{
+	font-size: 36px;
+}
+a.btn.btn-default{
+	color:#ff0067;
+	font-weight: 600;
+	font-size: 13px;
+}
+

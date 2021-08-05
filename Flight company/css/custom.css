@@ -1,0 +1,614 @@
+/* home */
+/* start header */
+.header .sign{
+	height: 50px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.header .sign ul{
+	float: right;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.header .sign ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 2.5;
+}
+
+.header .sign ul li a{
+	text-decoration: none;
+	color: #999;
+	transition: .3s;
+}
+
+.header .sign ul li a:hover{
+	color: #777;
+	transition: .3s;
+}
+
+.header .ad{
+	width: 100%;
+	height: 170px;
+	margin: 0 auto;
+	background-image: url(../images/cover.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.header .ad .logo{
+	float: left;
+	height: 160px;
+	width: 160px;
+	margin-left: 50px;
+}
+
+.header .ad .logo img{
+	height: 100%;
+}
+
+.header .ad .news-form{
+	float: right;
+	height: 130px;
+	width: 385px;
+	margin: 8px 50px;
+}
+
+.header .ad .news-form h3{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;	
+	font-family: arial;
+	font-size: 16px;
+	color: #222;
+	text-shadow: -1px 0 #999, 0 1px #999;
+}
+
+.header .ad .news-form p{
+	margin-left: 15px;
+	margin-top: 0;
+	color: #222;
+	text-shadow: -1px 0 #999, 0 1px #999;
+}
+
+.header .ad .news-form form{
+	margin-left: 14px;
+	margin-top: 21px;
+}
+
+.header .ad .news-form form input{
+	width: 140px;
+	height: 26px;
+	padding-left: 4px;
+	background-color: #CCC;
+	border: 0;
+	color: #333;
+	font-size: 15px;
+	transition: .3s;
+}
+
+.header .ad .news-form form input:hover{
+	background-color: #DDD;
+	transition: .3s;
+}
+
+.header .ad .news-form form input:focus{background-color: #DDD;}
+
+.header .ad .news-form form button{
+	padding: 4px;
+	background: none;
+	border: 1px solid #FFF;
+	color: #FFF;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.header .ad .news-form form button:hover{
+	transition: .5s;
+	border: 1px solid #DDD;
+	color: #DDD;
+}
+
+.header .navbar{
+	background-color: #333;
+	height: 60px;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.header .navbar ul{
+	list-style: none;
+	display: inline-table;
+	text-align: center;
+}
+
+.header .navbar ul li{
+	list-style: none;
+	font-size: 25px;
+	font-family: arial;
+	display: inline;
+	margin-right: 120px;
+}
+
+.header .navbar ul li a{
+	text-decoration: none;
+	color: #DDD;
+	transition: .3s;
+}
+
+.header .navbar ul li a:hover{
+	transition: .3s;
+	color: #2ecc71;
+}
+/* end header */
+
+/* start photos */
+.photo-1{
+	background-image: url(../images/slideShow/1.jpg);
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.photo-1 .previous{
+	float: left;
+	height: 600px;
+	width: 170px;
+	background-color: white;
+	opacity: .2;
+	transition: .4s;
+}
+
+.photo-1 .next{
+	float: right;
+	height: 600px;
+	width: 170px;
+	background-color: white;
+	opacity: .2;
+	transition: .4s;
+}
+
+.photo-1 .previous img{
+	margin-top: 250px;
+	margin-bottom: 250px;
+	height: 100px;
+	margin-left: 30px;
+}
+
+.photo-1 .next img{
+	margin-top: 250px;
+	margin-bottom: 250px;
+	height: 100px;
+	margin-left: 40px;
+}
+
+.photo-1 .next:hover, .photo-1 .previous:hover{
+	opacity: .5;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.photo-1 ul{
+	padding-top: 530px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.photo-1 ul li{
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	background-color: white;
+	border: 1px solid #2ecc71;
+	margin: 10px;
+	list-style: none;
+	display: inline-block;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.photo-1 ul li:hover{
+	transition: .3s;
+	background-color: #2ecc71;
+}
+/* end photos */
+
+/* start preview */
+.preview{
+	width: 100%;
+	height: 800px;
+	background-color: #333;
+	font-family: arial;
+}
+
+.preview .img{
+	display: inline-block;
+	height: 200px;
+	width: 20%;
+	margin-right: 2.2%;
+	margin-left: 2.2%;
+	margin-top: 16px;
+}
+
+.preview .img img{
+	height: 100%;
+	width: 100%;
+}
+
+.preview .img img:hover{
+
+}
+
+.preview .img h3{
+	color: #AAA;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.preview .img p{
+	color: #888;
+	line-height: 1.4;
+}
+
+.preview button{
+	margin: 100px 40%;
+	padding: 20px 30px;
+	background: none;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+	font-size: 24px;
+	transition: .3s;
+}
+
+.preview button:hover{
+	color: #2ecc71;
+	border: 1px solid #2ecc71;
+	transition: .3s;
+}
+
+/* end preview */
+
+/* start footer */
+.footer{
+	margin: 0;
+	background-color: #444;
+	width: 100%;
+	height: 400px;
+	font-family: arial;
+	cursor: default;
+}
+
+.footer .logo{
+	padding: 98px 50px;
+	float: left;
+}
+
+.footer h3{
+	margin-top: 0;
+	color: #999;
+}
+
+.footer .about{
+	color: #777;
+	padding-top: 110px;
+	display: inline;
+	position: absolute;
+	width: 20%;
+}
+
+.footer .tags{
+	color: #777;
+	padding-top: 110px;
+	display: inline;
+	position: absolute;
+	width: 20%;
+	padding-left: 24%;
+}
+
+.footer .connect{
+	padding-top: 110px;
+	display: inline;
+	position: absolute;
+	width: 20%;
+	padding-left: 52%;
+}
+
+.footer .connect img{
+	margin: 15px 10px 10px 0;
+	cursor: pointer;
+}
+
+/* end footer */
+
+
+
+/* packages */
+/* start packages */
+.packages{
+	height: 560px;
+	width: 75%;
+	cursor: default;
+	margin: 0 auto;
+}
+
+.packages .package-1{
+	height: 450px;
+	width: 29%;
+	background-image: url(../images/paris.jpg);
+	background-size: cover;
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.packages .package-2{
+	height: 450px;
+	width: 29%;
+	background-image: url(../images/london.jpg);
+	background-size: cover;
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.packages .package-3{
+	height: 450px;
+	width: 29%;
+	background-image: url(../images/newyork.jpg);
+	background-size: cover;
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.packages h1, .packages h2, .packages p{
+	color: white;
+	line-height: 2;
+	margin: 0;
+	text-align: center;
+	font-family: arial;
+	text-shadow: -2px 0 #333, 0 2px #333;
+}
+
+.packages h1{
+	padding-top: 120px;
+}
+
+.packages button{
+	background: none;
+	color: white;
+	border: 1px solid white;
+	padding: 10px 25px;
+	font-size: 20px;
+	margin: 30px 66px;
+	cursor: pointer;
+	transition: .3s;
+	border-radius: 5px;
+}
+
+.packages button:hover{
+	border: 1px solid #2ecc71;
+	transition: .3s;
+	background-color: #2ecc71;
+}
+
+/* end packages */
+
+/* Booking */
+/* start booking */
+.booking{
+	width: 100%;
+	height: 900px;
+	background: url(../images/plane1.jpg) no-repeat;
+	background-size: cover;
+}
+
+.booking .flight{
+	font-family: arial;
+	color: white;
+	display: inline-block;
+	margin: 20px 70px;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.booking .flight div{
+	display: inline-block;
+	padding-right: 120px;
+	margin-top: 30px;
+}
+
+.booking .flight input{
+	border: 0;
+	width: 250px;
+	height: 40px;
+	background-color: white;
+	color: #333;
+	font-size: 17px;
+	transition: .3s;
+	padding-left: 8px;
+	font-weight: bold;
+	margin-top: 3px;
+	border-radius: 2px;
+	right: 0;
+}
+
+.booking .flight select{
+	width: 258px;
+	height: 40px;
+	background-color: white;
+	color: #333;
+	border: 0;
+	font-weight: bold;
+	padding-left: 5px;
+	border-radius: 2px;
+	transition: .3s;
+}
+
+.booking .flight select option{background-color: white;}
+
+.booking .flight input:focus,
+.booking .flight select:hover,
+.booking .flight select:focus,
+.booking .flight input:hover{background-color: #EEE;}
+
+.booking .flight button{
+	width: 150px;
+	height: 40px;
+	background-color: #feb217;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.booking .details{
+	font-family: arial;
+	color: #333;
+	margin-top: 50px;
+	float: left;
+}
+
+.booking .details span{
+	display: block;
+	margin-top: 15px;
+	margin-left: 70px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.booking .details span input,
+.booking .details span select
+{
+	border: 0;
+	color: #333;
+	transition: .3s;
+	padding-left: 8px;
+	border-radius: 2px;
+	margin-left: 5px;
+	height: 26px;
+}
+
+.booking .details span select:hover,
+.booking .details span select:focus,
+.booking .details span input:hover,
+.booking .details span input:focus{background-color: #EEE;}
+
+/* end booking */
+
+/* About */
+/* start about */
+.about-us{
+	width: 75%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.about-us #map{
+	margin-top: 40px; 
+	height: 250px;
+	width: 100%;
+	text-align: center;
+	color: #333;
+	font-family: arial;
+}
+
+.about-us #map h1{
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.about-us #map iframe{width: 100%;}
+
+.about-us #contact{
+	font-family: arial;
+	color: #333;
+	position: relative;
+	margin-top: 120px;
+}
+
+.about-us #contact .left{
+	float: left;
+	width: 48%;
+	height: 500px;
+	text-align: center;
+}
+
+.about-us #contact .right{
+	float: right;
+	width: 48%;
+	height: 500px;
+}
+
+.about-us #contact .left p{color: #666;}
+
+.about-us #contact .left p:last-of-type{
+	text-align: left;
+	margin: 100px 0;
+}
+
+.about-us #contact .right input{
+	display: block;
+	height: 40px;
+	width: 100%;
+	margin-top: 25px;
+	font-size: 100%;
+	border: 0;
+	background-color: #DDD;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+.about-us #contact .right textarea{
+	resize: none;
+	width: 100%;
+	height: 150px;
+	margin-top: 25px;
+	border: 0;
+	background-color: #DDD;
+	padding-left: 10px;
+	border-radius: 5px;
+	padding-top: 10px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+.about-us #contact .right textarea:hover,
+.about-us #contact .right textarea:focus,
+.about-us #contact .right input:hover,
+.about-us #contact .right input:focus{
+	background-color: #CCC;
+}
+
+.about-us #contact .right button{
+	font-weight: bold;
+	background-color: #feb217;
+	color: white;
+	margin-top: 20px;
+	padding: 10px 30px;
+	font-size: 20px;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+}
+
+.about-us #contact .right button:hover{
+	background-color: #ffa700;
+}
+
+/* end about */
+

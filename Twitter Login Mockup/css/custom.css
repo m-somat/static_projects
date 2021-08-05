@@ -1,0 +1,216 @@
+/* Desktop */
+@media (min-width: 600px){
+	body{
+		font-weight: bold;
+		font-family: arial;
+		background-image: url(../img/background.jpg);
+		background-size: cover;
+		background-color: #333;
+	}
+
+	h1, h2, h3, h4, h5, h6{margin: 0}
+
+	/* start header */
+	.header{
+		height: 48px;
+		background-color: white;
+		font-size: 13px;
+		color: #777;
+		width: 100%;
+	}
+
+	.header a{
+		color: #777;
+		text-decoration: none;
+		transition: .3s;
+		display: block;
+		height: 46px;
+	}
+	.header a:hover{
+		color: #1c94e0;
+	}
+
+	.header ul{
+		list-style: none;
+		margin: 0;
+		text-align: left;
+	}
+
+	.header ul li{
+		height: 45px;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		transition: .1s;
+	}
+
+	.header ul li .logo{
+		float: left;
+		margin: 11px 0 0 10px;
+	}
+
+	.header ul li .text{
+		float: left;
+		margin-left: 3px;
+		margin-top: 17px;
+	}
+
+	.header .left{
+		float: left;
+		height: 46px;
+		font-weight: bolder;
+		width: 95px;
+	}
+
+	.header .right{
+		font-weight: bolder;
+		float: left;
+		height: 46px;
+		width: 110px
+	}
+
+	/* end header */
+
+	/* start body */
+	.body .mobile{display: none;}
+
+	.body{
+		margin: 80px auto;
+		width: 850px;
+		min-width: 850px;
+	}
+
+	.body .welcome{
+		float: left;
+		color: white;
+		width: 550px;
+		text-align: left;
+		line-height: 1.4;
+		font-family: "Segoe UI",Arial,sans-serif;
+	}
+
+	.body .welcome h2{margin-bottom: 20px}
+	.body .welcome h3{font-size: 22px}
+
+	.body .sign{
+		float: right;
+		width: 300px;
+	}
+
+	.body .sign .in,
+	.body .sign .up{
+		background-color: white;
+		width: 275px;
+		display: block;
+		margin-bottom: 15px;
+		padding: 12px;
+	}
+
+	.body .sign .in{min-height: 106px}
+
+	.body .sign input{
+		width: 266px;
+		height: 30px;
+		border-radius: 3px;
+		border: 1px solid #ccd6dd;
+		margin-bottom: 15px;
+		padding-left: 5px;
+		font-size: 14px;
+		color: #111;
+		display: block;
+	}
+
+	.body .sign .in input[type='submit']{
+		height: 31px;
+		border: 1px solid #1c94e0;
+		background: none;
+		border-radius: 100px;
+		color: #1c94e0;
+		font-size: 13px;
+		font-weight: bolder;
+		width: 70px;
+		cursor: pointer;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.body .sign .in input[type='submit']:hover{background-color: #EAF5FD;}
+	.body .sign .in input[type='submit']:focus{background-color: #006DBF;color: white}
+
+	.body .sign .in .options{display: block;}
+
+	.body .sign .in label{
+		cursor: pointer;
+	}
+
+	.body .sign .in label input{
+		height: 13px;
+		width: 13px;
+		margin: 0;
+		float: left;
+		display: inline;
+		margin-right: 3px;
+	}
+
+	.body .sign .in a{
+		font-size: 12px;
+		color: #1c94e0;
+		text-decoration: none;
+	}
+
+	.body .sign .in a:hover{text-decoration: underline;}
+
+	.body .sign .up{min-height: 230px}
+
+	.body .sign .up h3{
+		font-family: Segoe UI, arial;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #e6ecf0;
+		padding-bottom: 10px
+	}
+
+	.body .sign .up input[type='submit']{
+		height: 34px;
+		border: 1px solid #1c94e0;
+		background-color: #1da1f2;
+		border-radius: 100px;
+		color: white;
+		font-size: 13px;
+		font-weight: bolder;
+		width: 170px;
+		cursor: pointer;
+		float: right;
+		text-align: center;
+	}
+
+	.body .sign .up input[type='submit']:hover{background-color: #006DBF}
+	.body .sign .up input[type='submit']:focus{background-color: #006DBF}
+
+	/* end body */
+
+	footer{
+	text-align: center;
+	font-size: 15px;
+	color: #CCC;
+	bottom: 0;
+	position: absolute;
+	left: 37%;
+	right: 37%;
+	clear: both;
+	}
+
+	footer a{
+		text-decoration: none;
+		color: #d60027;
+		transition: .2s;
+	}
+
+	footer a:hover{color: #ff7373;}
+
+	footer span{color: #d60027;}
+}
+
+
+
+
+

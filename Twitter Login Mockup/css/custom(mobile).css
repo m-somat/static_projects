@@ -1,0 +1,93 @@
+/* mobilephones */
+@media (max-width: 600px){
+	body{
+		font-weight: bold;
+		font-family: arial;
+		min-width: 300px;
+		margin-bottom: 40px
+	}
+
+	h3{
+		border-bottom: 0;
+		padding-left: 10px
+	}
+
+	input[type="text"]{
+		border: 0;
+		background-color: #EEE;
+		width: 270px;
+		height: 35px;
+		border-radius: 30px;
+		margin-bottom: 15px;
+		padding-left: 10px;
+		font-size: 14px;
+		display: block;
+		transition: .3s
+	}
+
+	input[type="text"]:focus{background-color: #DDD}
+
+	input[type="submit"]{
+		height: 34px;
+		border: 1px solid #1c94e0;
+		background: none;
+		border-radius: 100px;
+		color: #1c94e0;
+		font-size: 13px;
+		font-weight: bolder;
+		width: 280px;
+		cursor: pointer;
+		display: block;
+		text-align: center;
+	}
+
+	.up input[type='submit']{
+		background-color: #1da1f2;
+		border-radius: 100px;
+		color: white;
+		font-size: 13px;
+		font-weight: bolder;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	input[type="submit"]:hover{background-color: #EAF5FD;}
+	input[type="submit"]:focus{background-color: #006DBF;color: white}
+	
+	.up input[type="submit"]:hover,
+	.up input[type="submit"]:focus{background-color: #006DBF}
+
+	.body .mobile{
+		text-align: center;
+		height: 60px;
+		width: auto;
+		margin: 40px 0 30px 0 ;
+	}
+
+	.body .mobile img{height: 100%}
+
+	.body .sign{
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	.body .sign .in .options{
+		width: 270px;
+		margin-top: 10px;
+		padding-left: 10px
+	}
+
+	.body .sign .in a{
+		font-size: 12px;
+		color: #1c94e0;
+		text-decoration: none;
+	}
+
+	.body .sign .up{margin-top: 40px}
+
+	/* unwanted */
+	.header{display: none;}
+	.body .welcome{display: none;}
+	.footer{display: none;}
+
+}

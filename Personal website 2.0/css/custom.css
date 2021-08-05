@@ -1,0 +1,179 @@
+/* start framework */
+
+body{
+	background-color: #DDD;
+	height: 2500px;
+	font-family: arial;
+	color: #222;
+}
+
+.container{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+a{color: #EE2557; transition: .3s;}
+a:hover{text-decoration: none;}
+
+h2{
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+	margin: 0;
+}
+
+h3{
+	font-size: 17px;
+	margin: 0;
+}
+
+/* end framework */
+
+/* start navbar */
+.navbar{
+	background-color: white;
+	color: #EF233C;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+}
+
+.navbar ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 22px;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 70px;
+	font-weight: bold;
+}
+
+.navbar ul li a{text-decoration: none;}
+.navbar ul li a:hover{color: #f47292;}
+/* end navbar */
+
+/* start header */
+.header{
+	width: 1348px;
+	height: 600px;
+	padding-top: 50px;
+	background-color: #2B2D42;
+}
+
+.header .photo{
+	float: left;
+	height: 400px;
+	width: 400px;
+	margin-top: 100px;
+}
+
+.header .photo img{height: 100%; border-radius: 100%;}
+
+.header .text{
+	float: right;
+	color: #EDF2F4;
+	width: 700px;
+}
+
+.header .text h1{
+	font-family: 'Caveat', cursive;
+	font-size: 80px;
+	margin: 0;
+	margin-top: 160px;
+}
+
+.header .text h2{margin-top: 20px;}
+
+.header .text p{
+	color: #8D99AE;
+	line-height: 1.5;
+	font-size: 17px;
+}
+
+/* end header */
+
+/* start work experience */
+.work h2{
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.work .exp{
+	margin-bottom: 35px;
+	display: block;
+	height: 140px;
+}
+
+.work .exp p{
+	font-size: 14px;
+	margin: 0;
+	line-height: 1.3;
+}
+
+.work .exp .exp-left{
+	float: left;
+	width: 20%;
+}
+
+.work .exp .exp-right{
+	float: right;
+	width: 75%;
+}
+
+/* end work experience */
+
+/* start education */
+.education{
+	width: 1348px;
+	height: 500px;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	margin-top: 180px;
+	color: black;
+	text-shadow: 1px 1px #555;
+}
+
+.education .edu{
+	margin-top: 70px;
+	display: inline-block;
+}
+
+.education .edu h2{
+	margin-bottom: 50px;
+}
+
+/* end education */
+
+/* start footer */
+footer{
+	width: 1348px;
+	height: 350px;
+	background-color: #2B2D42;
+	text-align: center;
+	color: #EDF2F4;
+	padding-top: 100px;
+}
+
+footer h2{font-size: 65px}
+
+footer ul{
+	list-style: none;
+	display: block;
+	margin-top: 40px
+}
+
+footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 20px
+}
+
+footer ul li img{
+	height: 20px;
+}
+
+footer p{margin-top: 100px}
+/* end footer */

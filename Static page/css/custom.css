@@ -1,0 +1,145 @@
+body{
+	background-color: #222;
+	font-family: arial;
+}
+
+/* start nav-1 */
+.nav-1{
+	background-color: white;
+	height: 58px;
+	width: 100%;
+	min-width: 1300px;
+	overflow: hidden;
+}
+
+.nav-1 ul{
+	list-style: none;
+	float: left;
+	min-width: 1300px;
+	margin: 0;
+}
+
+.nav-1 ul li{
+	float: left;
+	padding-right: 20px;
+	padding-left: 9.5px;
+	width: 155px;
+	padding-top: 17px;
+	height: 80px;
+	transition: .2s
+}
+
+.nav-1 ul li img{width: 100%}
+
+.nav-1 ul li span{
+	display: inline-block;
+	margin-top: -4px;
+}
+
+.nav-1 ul li .text{
+	float: left;
+	padding-left: 8px;
+	font-size: 13px;
+	text-align: left;
+	display: inline-block;
+	width: 115px;
+	padding-top: 10px
+}
+
+.nav-1 ul li .logo{
+	float: left;
+	display: inline-block;
+}
+
+.nav-1 ul a{
+	text-decoration: none;
+	color: #444;
+}
+
+.nav-1 ul li:hover,
+.nav-1 ul li:focus{background-color: #BDF1F6}
+/* end nav-1 */
+
+/* start main body */
+.main{
+	width: 100%;
+	min-width: 1300px;
+	height: 700px;
+	/*background: url(../img/main.jpg) no-repeat;
+	background-size: cover;*/
+	background-color: #222;
+}
+
+.main h1{
+	margin: 0;
+	padding-top: 100px;
+	color: white;
+	text-align: center;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 50px;
+	line-height: 1.5
+}
+
+.main p{
+	color: #CCC;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 40px
+}
+
+.main form{
+	margin: 40px auto;
+	width: 710px;
+}
+
+.main form input[type="text"]{
+	width: 405px;
+	height: 60px;
+	border: 0;
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	background-color: #DDD;
+	padding-left: 20px;
+	transition: .4s;
+}
+
+.main form input[type="text"]:focus{background-color: #FFF}
+
+.main form input[type="submit"]{
+	cursor: pointer;
+	height: 62px;
+	width: 276px;
+	margin-left: -4px;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: 0;
+	background-color: #f4511e;
+	color: white;
+}
+
+.main form input[type="submit"]:hover{background-color: #d84315}
+
+.main ul{
+	list-style: none;
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 10px
+}
+
+.main ul li{
+	float: left;
+	margin-left: 185px;
+	display: inline-block;
+}
+
+.main .words{
+	width: 1300px;
+}
+
+.main .words a{color: white}
+
+/* end main body */
